@@ -3,7 +3,6 @@ import './styles/App.css';
 function Navbar() {
   return (
     <div className="Navbar">
-      <></>
     </div>
   );
 }
