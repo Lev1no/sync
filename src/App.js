@@ -1,4 +1,5 @@
 import './styles/App.css';
+import './styles/datepicker.css';
 // for material UI
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';

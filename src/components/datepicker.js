@@ -5,9 +5,11 @@ import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 
 function BasicDateCalendar() {
   return (
-    <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <DateCalendar />
-    </LocalizationProvider>
+    <div className="Datepicker">
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+        <DateCalendar />
+      </LocalizationProvider>
+    </div>
   );
 }
 
